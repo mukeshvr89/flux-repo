@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  path: ./flux-system/1-demo   # 👈 points to your app manifests
+  path: ./1-demo   # 👈 points to your app manifests
   prune: true
   sourceRef:
     kind: GitRepository
